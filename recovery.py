@@ -289,7 +289,7 @@ st.markdown("""
 Después de observar que los puntos marcan una tendencia lineal, se realizó una *Regresión Lineal* para poder conocer el modelo al que tiende esta relación.
 """)
 
-st.image('lineal_regression.jpg')
+st.image('./lineal_regression.jpg')
 #st.pyplot(lineal_regression(df))
 
 st.markdown("""
