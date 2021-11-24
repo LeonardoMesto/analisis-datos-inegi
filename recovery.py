@@ -134,7 +134,7 @@ st.markdown("""
 En la primera línea del código podemos identificar que se decidió descartar algunas variables, esto es porque dichas variables no generaban ningún cruce en el mapa de calor (como Municipio), o simplemente no tenían relevancia al realizar los cruces (como Latitud y Longitud). Posteriormente se realizaron ciertas configuraciones al reporte y el resultado rescatado fue el siguiente.
 """)
 
-st.image('mapa_calor.jpg')
+st.image('./mapa_calor.jpg')
 
 ############
 # Gráficas #
