@@ -134,7 +134,7 @@ st.markdown("""
 En la primera línea del código podemos identificar que se decidió descartar algunas variables, esto es porque dichas variables no generaban ningún cruce en el mapa de calor (como Municipio), o simplemente no tenían relevancia al realizar los cruces (como Latitud y Longitud). Posteriormente se realizaron ciertas configuraciones al reporte y el resultado rescatado fue el siguiente.
 """)
 
-st.image('./mapa_calor.jpg')
+st.image('https://raw.githubusercontent.com/LeonardoMesto/analisis-datos-inegi/master/mapa_calor.JPG')
 
 ############
 # Gráficas #
@@ -289,7 +289,7 @@ st.markdown("""
 Después de observar que los puntos marcan una tendencia lineal, se realizó una *Regresión Lineal* para poder conocer el modelo al que tiende esta relación.
 """)
 
-st.image('./lineal_regression.jpg')
+st.image('https://raw.githubusercontent.com/LeonardoMesto/analisis-datos-inegi/master/lineal_regression.JPG')
 #st.pyplot(lineal_regression(df))
 
 st.markdown("""
